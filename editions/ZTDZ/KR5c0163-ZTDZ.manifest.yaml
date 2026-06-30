@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0163/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0163/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上通靈八史聖文真形圖
+  date: '2015-08-29 00:48:48.419232'
+  source:
+    repository: kanripo
+    path: KR5c0163
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0163_000-ZTDZ.yaml, hash: 'sha256:ca48a28279f3bed39f82db7d53b5e0ea6d7313a74e373fef112d05f223c19a83'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0163_000-ZTDZ.markers.yaml, hash: 'sha256:e4c3f5582c4daeec9ac4ecfaddcd4853c3729143f2e9ea73110a0ca37bb19ebf'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0163_SJB_000-170234a
+    span:
+    - body
+    - 0
+    - 2850
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:068f2b8b05628be83753d5a5a2ecc5919497b9a8ee8eae880538d1b99c921375
